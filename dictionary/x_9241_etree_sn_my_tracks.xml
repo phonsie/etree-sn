@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="My Tracks" max_length="40" name="x_9241_etree_sn_my_tracks" type="collection">
+        <element label="MD5ID" mandatory="true" max_length="32" name="md5id" reference="x_9241_etree_sn_md5s" type="reference"/>
+        <element label="MemberID" mandatory="true" max_length="32" name="memberid" reference="x_9241_etree_sn_members" type="reference"/>
+        <index name="index">
+            <element name="md5id"/>
+            <element name="memberid"/>
+        </index>
+        <index name="index2">
+            <element name="memberid"/>
+        </index>
+    </element>
+</database>

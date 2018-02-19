@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sources" max_length="40" name="x_9241_etree_sn_sources" type="collection">
+        <element label="ShowID" mandatory="true" max_length="32" name="showid" reference="x_9241_etree_sn_shows" type="reference"/>
+        <element label="SourceID" mandatory="true" max_length="40" name="sourceid" type="integer"/>
+        <index name="index">
+            <element name="sourceid"/>
+        </index>
+        <index name="index2">
+            <element name="showid"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Source Info" max_length="40" name="x_9241_etree_sn_source_info" type="collection">
+        <element label="SourceID" mandatory="true" max_length="32" name="sourceid" reference="x_9241_etree_sn_sources" type="reference"/>
+        <element label="TaperID" max_length="32" name="taperid" reference="x_9241_etree_sn_taper" type="reference"/>
+        <element choice="3" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element label="32-bit" sequence="100" value="32-bit"/>
+                <element label="64-bit" sequence="200" value="64-bit"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sourceid"/>
+        </index>
+        <index name="index2">
+            <element name="taperid"/>
+        </index>
+    </element>
+</database>

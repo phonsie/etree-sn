@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Shows" max_length="40" name="x_9241_etree_sn_shows" type="collection">
+        <element label="ArtistID" mandatory="true" max_length="32" name="artistid" reference="x_9241_etree_sn_artists" type="reference"/>
+        <element label="Date" mandatory="true" max_length="40" name="date" type="glide_date"/>
+        <element label="EtreeID" mandatory="true" max_length="40" name="etreeid" type="integer"/>
+        <element label="VenueMD5" mandatory="true" max_length="32" name="venuemd5" reference="x_9241_etree_sn_venues" type="reference"/>
+        <index name="index">
+            <element name="etreeid"/>
+        </index>
+        <index name="index2">
+            <element name="artistid"/>
+        </index>
+        <index name="index3">
+            <element name="venuemd5"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Banned Sources" max_length="40" name="x_9241_etree_sn_banned_sources" type="collection">
+        <element label="Reason" mandatory="true" max_length="1024" name="reason" type="string"/>
+        <element label="SourceID" mandatory="true" max_length="40" name="sourceid" type="integer"/>
+    </element>
+</database>

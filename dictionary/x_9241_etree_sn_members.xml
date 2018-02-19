@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_user" label="Members" max_length="40" name="x_9241_etree_sn_members" type="collection">
+        <element label="Secret" mandatory="true" max_length="32" name="secret" type="string"/>
+    </element>
+</database>

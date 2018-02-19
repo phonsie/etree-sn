@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="MD5s" max_length="40" name="x_9241_etree_sn_md5s" type="collection">
+        <element label="MD5" mandatory="true" max_length="32" name="md5" type="string"/>
+    </element>
+</database>

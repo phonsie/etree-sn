@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Tracks" max_length="40" name="x_9241_etree_sn_tracks" type="collection">
+        <element label="FileNameID" max_length="32" name="filenameid" reference="x_9241_etree_sn_track_filenames" type="reference"/>
+        <element label="Length" max_length="40" name="length" type="glide_time"/>
+        <element label="MD5ID" mandatory="true" max_length="32" name="md5id" reference="x_9241_etree_sn_md5s" type="reference"/>
+        <element label="Number" mandatory="true" max_length="3" name="number" type="integer"/>
+        <element label="SourceID" max_length="32" name="sourceid" reference="x_9241_etree_sn_sources" type="reference"/>
+        <element label="Track Name" mandatory="true" max_length="32" name="track_name" reference="x_9241_etree_sn_track_names" type="reference"/>
+        <index name="index">
+            <element name="sourceid"/>
+        </index>
+        <index name="index2">
+            <element name="filenameid"/>
+        </index>
+        <index name="index3">
+            <element name="md5id"/>
+            <element name="sourceid"/>
+        </index>
+        <index name="index4">
+            <element name="track_name"/>
+        </index>
+    </element>
+</database>

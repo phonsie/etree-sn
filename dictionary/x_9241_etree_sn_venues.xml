@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Venues" max_length="40" name="x_9241_etree_sn_venues" type="collection">
+        <element label="CityID" mandatory="true" max_length="32" name="cityid" reference="x_9241_etree_sn_city" type="reference"/>
+        <element label="CountryID" max_length="32" name="countryid" reference="x_9241_etree_sn_countries" type="reference"/>
+        <element label="State" max_length="2" name="state" type="string"/>
+        <element label="VenueMD5" mandatory="true" max_length="32" name="venuemd5" type="string"/>
+        <element display="true" label="Venue Name" mandatory="true" max_length="255" name="venuename" type="string"/>
+        <index name="index">
+            <element name="cityid"/>
+        </index>
+        <index name="index2">
+            <element name="countryid"/>
+        </index>
+    </element>
+</database>

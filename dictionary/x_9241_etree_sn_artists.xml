@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Artists" max_length="40" name="x_9241_etree_sn_artists" type="collection">
+        <element label="AID" mandatory="true" max_length="10" name="aid" type="integer"/>
+        <element label="Artist" mandatory="true" max_length="255" name="artist" type="string"/>
+        <element label="Shortname" mandatory="true" max_length="5" name="shortname" type="string"/>
+    </element>
+</database>

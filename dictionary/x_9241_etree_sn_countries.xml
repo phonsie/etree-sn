@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Countries" max_length="40" name="x_9241_etree_sn_countries" type="collection">
+        <element display="true" label="Country" mandatory="true" max_length="255" name="country" type="string"/>
+    </element>
+</database>

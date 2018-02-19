@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Track Names" max_length="40" name="x_9241_etree_sn_track_names" type="collection">
+        <element display="true" label="Track Name" mandatory="true" max_length="255" name="track_name" type="string"/>
+    </element>
+</database>

@@ -1,32 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_app_application">
-    <sys_app_application action="INSERT_OR_UPDATE">
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category/>
-        <description/>
-        <device_type>browser</device_type>
         <hint/>
         <name>etree-sn</name>
         <order/>
         <roles>x_9241_etree_sn.user</roles>
-        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-02-17 17:09:23</sys_created_on>
+        <sys_created_on>2018-02-19 18:25:12</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f78771d2db10130045dcd740cf961984</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Etree</sys_name>
+        <sys_id>fd1c104bdb14530045dcd740cf96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>etree-sn</sys_name>
         <sys_overrides/>
         <sys_package display_value="etree-sn" source="x_9241_etree_sn">bb877992db10130045dcd740cf961973</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="etree-sn">bb877992db10130045dcd740cf961973</sys_scope>
-        <sys_update_name>sys_app_application_f78771d2db10130045dcd740cf961984</sys_update_name>
+        <sys_update_name>sys_ui_application_fd1c104bdb14530045dcd740cf96190e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-19 21:45:16</sys_updated_on>
-        <title>Etree</title>
-        <view_name/>
-    </sys_app_application>
+        <sys_updated_on>2018-02-19 18:25:12</sys_updated_on>
+    </sys_ui_application>
 </record_update>

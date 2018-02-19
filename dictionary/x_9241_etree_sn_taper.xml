@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_user" label="Taper" max_length="40" name="x_9241_etree_sn_taper" type="collection"/>
+</database>

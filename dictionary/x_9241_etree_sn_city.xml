@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Cities" max_length="40" name="x_9241_etree_sn_city" type="collection">
+        <element display="true" label="City" mandatory="true" max_length="255" name="city" type="string"/>
+    </element>
+</database>

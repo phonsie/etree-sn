@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>sourceid</col_name_string>
+        <index_col_name element="sourceid" name="x_9241_etree_sn_sources">cd4449c3db94530045dcd740cf961921</index_col_name>
+        <logical_table_name>x_9241_etree_sn_sources</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-19 21:24:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ad254dc3db94530045dcd740cf96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_9241_etree_sn_sources</sys_name>
+        <sys_package display_value="etree-sn" source="x_9241_etree_sn">bb877992db10130045dcd740cf961973</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="etree-sn">bb877992db10130045dcd740cf961973</sys_scope>
+        <sys_update_name>sys_index_x_9241_etree_sn_sources_sourceid</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-19 21:24:35</sys_updated_on>
+        <table display_value="Sources" name="x_9241_etree_sn_sources">812405c3db94530045dcd740cf9619fa</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>
